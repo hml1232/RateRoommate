@@ -1,0 +1,31 @@
+{
+  "name": "project3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/espielabis/Project3.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/espielabis/Project3/issues"
+  },
+  "homepage": "https://github.com/espielabis/Project3#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "express": "^4.16.2",
+    "express-fileupload": "^0.3.0",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.6",
+    "mysql2": "^1.5.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "sequelize": "^4.28.5"
+  }
+}

@@ -1,0 +1,526 @@
+nav.navbar-expand-lg.navbar-light {
+	width: 100%;
+	/*position: fixed;*/
+
+}
+nav.page-navigation a {
+    padding-right: 10px;
+		padding-left: 10px;
+    width: 80%;
+		color: black;
+}
+
+
+.btn-outline-primary {
+	border-color: #17a2b8;
+	color: #17a2b8;
+}
+
+.btn-outline-primary:hover {
+	background-color: #17a2b8;
+	border-color: #17a2b8;;
+
+}
+.blockquote p {
+	font-style: italic;
+}
+
+.jumbotron {
+	position: relative;
+	background-image: url(/assets/img/pexels-photo-58592.jpeg);
+	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 8px;
+
+}
+
+.background-image {
+  height: 500px;
+  position: absolute;
+
+}
+
+
+h1 {
+	text-align: center;
+}
+
+.page-header h1 {
+	text-align: center;
+	color: #17a2b8;
+	font-family: 'Lobster', cursive;
+	font-size: 50px;
+	/*text-shadow:  1px 1px 2px #000000;*/
+}
+
+/*//team//*/
+.team h1 {
+	text-align: center;
+	color: #17a2b8;
+	font-family: 'Lobster', cursive;
+	font-size: 50px;
+}
+
+/*//testimonials//*/
+.testimonials h1 {
+	text-align: center;
+	color: #17a2b8;
+	font-family: 'Lobster', cursive;
+	font-size: 50px;
+}
+
+.card.p-3 {
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card.p-5 {
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*//end testimonials//*/
+
+
+.jumbotron h1 {
+	padding-top: 160px;
+	font-weight: bold;
+	color: white;
+  text-align: center;
+	font-size: 30px;
+	text-shadow:  2px 2px 4px #000000;
+
+}
+
+.jumbotron h2 {
+
+	font-weight: bold;
+	color: white;
+  text-align: center;
+	text-shadow:  2px 2px 4px #000000;
+
+}
+
+.jumbotron p {
+	font-weight: bold;
+	color: white;
+  text-align: center;
+}
+
+.col-md-7.col-md-push-5 {
+	text-align: right;
+	float: right;
+
+}
+
+.img-circle {
+    border-radius: 50%;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+
+.img-thumbnail.img-responsive {
+	height: 210px;
+	width: 310px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.col-md-3 {
+	height: 300px;
+	padding-top: 20px;
+	padding-bottom: 200px;
+	text-align: center;
+}
+
+.col-md-12.text-center {
+	padding-top: 0px;
+	padding-bottom: 50px;
+}
+
+p {
+	text-align: center;
+	font-style: normal;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+
+p.lead {
+	text-align: inherit;
+}
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+	background-color: white;
+	padding-top: 0px;
+
+
+}
+#header {
+   background:#ff0;
+   padding:10px;
+}
+* {
+  box-sizing: border-box;
+}
+body,h1,h2,div,form,input,label,h3,a,h4,th {
+  font-family: 'Dosis', sans-serif;
+  color: #005580;
+}
+
+body, html {
+  min-height: 100%;
+  transition: background-color .5s;
+	background-image: url(/assets/img/brickwall.png);
+}
+/*
+
+img {
+	display: block;
+	align-items: center;
+}
+<<<<<<< HEAD
+=======
+
+=======
+*/
+>>>>>>> 669e550bfa0fe354d57aa50184685d831d111a48
+
+.w3-panel {
+  margin: 25px;
+  text-align: left;
+  background-color: lightgray;
+  padding: 25px 25px 25px 25px;
+}
+
+.w3-bar-block{
+  text-align: left;
+}
+
+.showNutrition{
+  color: chocolate;
+  font-size: small;
+  text-align: justify;
+}
+
+footer {
+  background: lightgray;
+
+  /*display: block;*/
+	margin-right: 10px;
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 84%;
+  margin-top: 5%;
+  bottom:0;
+	text-align: center;
+}
+footer a, footer ul {
+  margin: 2px;
+}
+
+div#bloodhound {
+  margin-bottom: 25%;
+}
+
+#register{
+  margin-bottom: 9%;
+}
+
+.w3-jumbo{
+  opacity: .65;
+  background-color: lightgray;
+  text-align: center;
+  margin: 0px;
+}
+
+#loginBox{
+  margin-bottom: 1%;
+}
+
+.w3-button {
+  margin: 15px;
+}
+
+#dashboard_hamburger{
+  position: absolute;
+  left: 2%;
+  height: 60px;
+  width: 100px;
+  margin: 0px;
+  padding: 0px;
+  top: 4px;
+}
+
+#trackName, #subCat{
+  padding: 5px;
+  margin-bottom: 15px;
+  color: #005580;
+  width: 100%;
+}
+
+#logo{
+  position: relative;
+  height: 50px;
+  width: 50px;
+  margin-top: 5%
+}
+
+#foodInput, #log, #register, #displayLogConfirmation,#logConfirmation{
+  width: 50%;
+  position: sticky;
+  left: 25%;
+}
+
+.w3-main, .main-content {
+  margin-bottom: 35%;
+}
+
+.index-header{
+  margin-top: 0px;
+
+}
+#mySidebar {
+
+  overflow-x: hidden;
+}
+
+.w3-modal {
+  display:none;
+}
+
+#modalData {
+  width: 100%;
+}
+.w3-modal-content {
+width: 50%;
+}
+.modalBtn {
+  z-index: 10;
+}
+.index-main {
+  margin-bottom:35%;
+}
+
+h2.mb-3 {
+	text-align: center;
+	margin-top: 0%;
+	color: #17a2b8;
+	font-family: 'Lobster', cursive;
+	font-size: 40px;
+
+}
+
+footer {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+/*home.handlebars stylesheet starts here */
+
+.welcome {
+	text-align: center;
+	color: #17a2b8;
+	font-family: 'Lobster', cursive;
+	font-size: 50px;
+}
+
+/*home.handlebars stylesheet ends here*/
+
+/*espie stylesheets start here*/
+
+/*to center the sign up button*/
+.btn-group-lg>.btn, .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+    margin-left: 40%;
+}
+
+}
+
+
+.card {
+    margin: 0 0 10px 0;
+}
+
+.card-body .btn {
+    width: 100%;
+}
+
+.card-header {
+    padding: .5rem .75rem;
+}
+.card-body {
+	display: block;
+	text-align: center;
+}
+#Filters {
+    margin-bottom: 20px;
+}
+
+#Filters .row div {
+    margin-bottom: 15px;
+}
+
+#Filters .row div.text-right {
+    margin-bottom: 0;
+}
+
+
+#SignUpForm {
+    display: table-cell;
+    height: 100%;
+    padding-top: 62px;
+    width: 35%;
+}
+#HomeTable {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+@media (max-width: 1740px) {
+    #SignUpForm .form {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 1450px) {
+    #SignUpForm .form {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 969px) {
+    #HomeTable {
+        display: block;
+    }
+
+
+    #SignUpForm {
+        display: block;
+        width: 100%;
+        padding-top: 0;
+    }
+
+    #SignUpForm .form {
+        padding: 100px;
+    }
+}
+
+@media (max-width: 700px) {
+    #SignUpForm .form {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    #ImageContainer {
+        background-size: contain;
+        background-position: top;
+        height: 300px;
+    }
+}
+/*working on the profile pic*/
+.img-fluid {
+    max-width: 70%;
+    height: auto;
+}
+/*end of profile pic*/
+
+/*espie stylesheets ends here*/
+.form-group {
+	padding-left: 4px;
+	text-align: center;
+ 	display: block;
+ 	align-items: center;
+ 	justify-content: center;
+}
+label {
+	display: block;
+	float: left;
+}
+
+
+
+.rounded {
+	display: block;
+	align-items: center;
+}
+
+/*//home.handlebars//*/
+#SubmitPost {
+	border-color: #17a2b8;
+	color: white;
+	background-color: #17a2b8;
+}
+#DeletePost {
+	border-color: #17a2b8;
+	color: white;
+	background-color: #17a2b8;
+
+}
+
+#UpdatePost {
+	border-color: #17a2b8;
+	color: white;
+	background-color: #17a2b8;
+}
+
+/*//addroommate//*/
+button.btn.btn-primary.roommate-margin-b-sm.roommate-margin-l-sm {
+	border-color: #17a2b8;
+	color: white;
+	background-color: #17a2b8;
+}
+
+#upload {
+	border-color: #17a2b8;
+	color: white;
+	background-color: #17a2b8;
+}
+
+.btn.btn-success {
+	border-color: #17a2b8;
+	color: white;
+	background-color: #17a2b8;
+}
+
+.btn.btn-danger {
+	border-color: #17a2b8;
+	color: #17a2b8;
+	background-color: white;
+}
+
+.btn.btn-primary {
+	border-color: #17a2b8;
+	color: white;
+	background-color: #17a2b8;
+}
+
+/*------------------------------*/
+.star-rating {
+	text-align: center;
+	display: block;
+  line-height:32px;
+  font-size:1.25em;
+	align-items: center;
+}
+
+.star-rating .fa-star{color: #17a2b8;}

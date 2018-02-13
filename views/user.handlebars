@@ -1,0 +1,61 @@
+
+
+<main id="HomeMain">
+          <!-- <div class="background-image responsive"></div>
+               <div class="jumbotron">
+                    <h1>Find and Rate a Roommate!</h1>
+                    <h2>Never have a bad roommate experience again.</h2>
+              </div> -->
+
+          <div class="row">
+                <div class="col-4">
+                  {{> profileSidebar}}
+                </div>
+
+                    <div class="row justify-content-center">
+                        <div class="card-deck">
+                            {{#each roommates}}
+                            <div class="card">
+                                <img class="card-img-top img-fluid" src="{{picture}}" alt="{{name}}" />
+                                <div class="card-body">
+                                    <h4 class="card-title text-center">{{name}}, {{age}}</h4>
+                                    <a href="/roomates/{{id}}" class="btn btn-primary">View Profile</a>
+                                </div>
+                            </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                </section>
+
+                <section id="Posts" class="d-none">
+                    <div class="row">
+                        <div class="col">
+                            <h2 class="text-left" style="display: inline-block">Posts</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        {{#each posts}}
+                        <div class="card mb-3 w-100">
+                            <div class="card-body text-secondary">
+                                <p class="card-text">{{body}}</p>
+                            </div>
+                            <div class="card-footer bg-transparent"><small>{{createdAt}}</small></div>
+                        </div>
+                        {{/each}}
+                    </div>
+                </section>
+
+                <section id="Friends" class="d-none">
+                    <div class="row">
+                        <div class="col">
+                            <h2 class="text-left" style="display: inline-block">Friends</h2>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col">Coming Soon</div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</main>
